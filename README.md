@@ -34,12 +34,26 @@ This tool rebuilds the cursors with several real sizes.
 sudo pacman -S xcur2png xorg-xcursorgen imagemagick
 ```
 
+Or use the provided dependency installer:
+
+```bash
+chmod +x install_deps.sh
+./install_deps.sh
+```
+
 ### Install and run
 
 ```bash
 git clone https://github.com/Mant1lka/xcursor-multisize.git
 cd xcursor-multisize
 python3 xcursor-multisize.py
+```
+
+Or use the quick-start script:
+
+```bash
+chmod +x run.sh
+./run.sh
 ```
 
 ### What the script asks
@@ -99,12 +113,26 @@ kbuildsycoca6
 sudo pacman -S xcur2png xorg-xcursorgen imagemagick
 ```
 
+Или воспользуйтесь скриптом установки зависимостей:
+
+```bash
+chmod +x install_deps.sh
+./install_deps.sh
+```
+
 ### Установка и запуск
 
 ```bash
 git clone https://github.com/Mant1lka/xcursor-multisize.git
 cd xcursor-multisize
 python3 xcursor-multisize.py
+```
+
+Или воспользуйтесь скриптом быстрого запуска:
+
+```bash
+chmod +x run.sh
+./run.sh
 ```
 
 ### Что спросит скрипт
