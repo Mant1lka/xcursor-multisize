@@ -6,6 +6,11 @@ Interactive installer for Linux **Xcursor** themes on **KDE Plasma** (Arch / Cac
 
 You download a cursor theme → run the script → answer a few questions in the terminal → the theme appears in Plasma **with a working size slider** (`24 / 32 / 48 / 64` by default).
 
+Supports:
+
+- Linux Xcursor themes
+- Windows packs (`.ani` / `.cur`, including `install.inf`)
+
 This repository contains **only the tool**. It does not ship any cursor artwork.
 
 ---
@@ -21,6 +26,8 @@ This tool rebuilds the cursors with several real sizes.
 ### What you need first
 
 1. A cursor theme folder that contains a `cursors/` directory (or point at `cursors/` itself).
+   - Linux Xcursor themes, **or**
+   - Windows packs with `.ani` / `.cur` (optional `install.inf`)
 2. These packages on Arch / CachyOS:
 
 ```bash
@@ -83,7 +90,9 @@ kbuildsycoca6
 
 ### Что нужно заранее
 
-1. Папка темы курсора с каталогом `cursors/` внутри (можно указать сам `cursors/`).
+1. Папка темы курсора с каталогом `cursors/` внутри (можно указать сам `cursors/`):
+   - Linux Xcursor, **или**
+   - Windows-пакет `.ani` / `.cur` (можно с `install.inf`)
 2. Пакеты на Arch / CachyOS:
 
 ```bash
