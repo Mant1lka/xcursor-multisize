@@ -25,9 +25,14 @@ This tool rebuilds the cursors with several real sizes.
 
 ### What you need first
 
-1. A cursor theme folder that contains a `cursors/` directory (or point at `cursors/` itself).
-   - Linux Xcursor themes, **or**
-   - Windows packs with `.ani` / `.cur` (optional `install.inf`)
+1. A cursor theme folder that contains a `cursors/` directory (lowercase) inside. You can also point directly at the `cursors/` folder itself.
+   - The folder **must** be named exactly `cursors` (lowercase). If your cursor files are stored under a different name (e.g. `Cursors`, `CURSORS`, `Cursors (1)`), rename it to `cursors` first:
+     ```bash
+     mv /path/to/theme/Cursors /path/to/theme/cursors
+     ```
+   - Supported sources:
+     - Linux Xcursor themes, **or**
+     - Windows packs with `.ani` / `.cur` (optional `install.inf`)
 2. Install the required packages (see below).
 
 ### Install and run
@@ -96,9 +101,14 @@ kbuildsycoca6
 
 ### Что нужно заранее
 
-1. Папка темы курсора с каталогом `cursors/` внутри (можно указать сам `cursors/`):
-   - Linux Xcursor, **или**
-   - Windows-пакет `.ani` / `.cur` (можно с `install.inf`)
+1. Папка темы курсора с каталогом `cursors/` (строчными буквами) внутри. Можно указать и сам каталог `cursors/`.
+   - Папка **обязательно** должна называться `cursors` (строчные буквы). Если файлы курсоров лежат в папке с другим названием (например, `Cursors`, `CURSORS`, `Cursors (1)`), переименуйте её:
+     ```bash
+     mv /path/to/theme/Cursors /path/to/theme/cursors
+     ```
+   - Поддерживаемые источники:
+     - Linux Xcursor темы, **или**
+     - Windows-пакет `.ani` / `.cur` (можно с `install.inf`)
 2. Установите необходимые пакеты (см. ниже).
 
 ### Установка и запуск
