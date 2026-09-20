@@ -28,33 +28,35 @@ This tool rebuilds the cursors with several real sizes.
 1. A cursor theme folder that contains a `cursors/` directory (or point at `cursors/` itself).
    - Linux Xcursor themes, **or**
    - Windows packs with `.ani` / `.cur` (optional `install.inf`)
-2. These packages on Arch / CachyOS:
-
-```bash
-sudo pacman -S xcur2png xorg-xcursorgen imagemagick
-```
-
-Or use the provided dependency installer:
-
-```bash
-chmod +x install_deps.sh
-./install_deps.sh
-```
+2. Install the required packages (see below).
 
 ### Install and run
 
-```bash
-git clone https://github.com/Mant1lka/xcursor-multisize.git
-cd xcursor-multisize
-python3 xcursor-multisize.py
-```
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Mant1lka/xcursor-multisize.git
+   cd xcursor-multisize
+   ```
 
-Or use the quick-start script:
+2. **Install dependencies** (Arch / CachyOS):
+   ```bash
+   sudo pacman -S xcur2png xorg-xcursorgen imagemagick
+   ```
+   Or use the provided script:
+   ```bash
+   chmod +x install_deps.sh
+   ./install_deps.sh
+   ```
 
-```bash
-chmod +x run.sh
-./run.sh
-```
+3. **Run the installer:**
+   ```bash
+   python3 xcursor-multisize.py
+   ```
+   Or use the quick-start script:
+   ```bash
+   chmod +x run.sh
+   ./run.sh
+   ```
 
 ### What the script asks
 
@@ -107,33 +109,35 @@ kbuildsycoca6
 1. Папка темы курсора с каталогом `cursors/` внутри (можно указать сам `cursors/`):
    - Linux Xcursor, **или**
    - Windows-пакет `.ani` / `.cur` (можно с `install.inf`)
-2. Пакеты на Arch / CachyOS:
-
-```bash
-sudo pacman -S xcur2png xorg-xcursorgen imagemagick
-```
-
-Или воспользуйтесь скриптом установки зависимостей:
-
-```bash
-chmod +x install_deps.sh
-./install_deps.sh
-```
+2. Установите необходимые пакеты (см. ниже).
 
 ### Установка и запуск
 
-```bash
-git clone https://github.com/Mant1lka/xcursor-multisize.git
-cd xcursor-multisize
-python3 xcursor-multisize.py
-```
+1. **Клонируйте репозиторий:**
+   ```bash
+   git clone https://github.com/Mant1lka/xcursor-multisize.git
+   cd xcursor-multisize
+   ```
 
-Или воспользуйтесь скриптом быстрого запуска:
+2. **Установите зависимости** (Arch / CachyOS):
+   ```bash
+   sudo pacman -S xcur2png xorg-xcursorgen imagemagick
+   ```
+   Или воспользуйтесь скриптом:
+   ```bash
+   chmod +x install_deps.sh
+   ./install_deps.sh
+   ```
 
-```bash
-chmod +x run.sh
-./run.sh
-```
+3. **Запустите установщик:**
+   ```bash
+   python3 xcursor-multisize.py
+   ```
+   Или воспользуйтесь скриптом быстрого запуска:
+   ```bash
+   chmod +x run.sh
+   ./run.sh
+   ```
 
 ### Что спросит скрипт
 
